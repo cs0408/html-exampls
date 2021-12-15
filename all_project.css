@@ -1,0 +1,154 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.main_div {
+  border: 2px solid black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 2px;
+}
+
+/* Container 1 ============================> */
+.main_div-container1 {
+  border: 2px dashed red;
+  margin: 20px 5px;
+  padding: 2px;
+}
+
+.main_div-container1 p {
+  margin: 15px 0 15px 10px;
+  font-size: 18px;
+}
+
+/* Container 2 ==============================> */
+.main_div-container2 {
+  border: 2px solid black;
+  margin: 20px 5px;
+  padding: 2px;
+}
+
+/* Container 2 - h3 */
+.main_div-container2-h3 {
+  margin: 10px 0 10px 0;
+  color: red;
+}
+
+/* Container 2 - inner div */
+.main_div-container2_div {
+  border: 2px dotted black;
+  margin: 5px 0 20px 10px;
+  padding: 10px;
+}
+
+/* list-style all =====================================================>  */
+
+ol.a {
+  list-style-type: armenian;
+}
+
+ol.b {
+  list-style-type: cjk-ideographic;
+}
+
+ol.c {
+  list-style-type: decimal;
+}
+
+ol.d {
+  list-style-type: decimal-leading-zero;
+}
+
+ol.e {
+  list-style-type: georgian;
+}
+
+ol.f {
+  list-style-type: hebrew;
+}
+
+ol.g {
+  list-style-type: hiragana;
+}
+
+ol.h {
+  list-style-type: hiragana-iroha;
+}
+
+ol.i {
+  list-style-type: katakana;
+}
+
+ol.j {
+  list-style-type: katakana-iroha;
+}
+
+ol.k {
+  list-style-type: lower-alpha;
+}
+
+ol.l {
+  list-style-type: lower-greek;
+}
+
+ol.m {
+  list-style-type: lower-latin;
+}
+
+ol.n {
+  list-style-type: lower-roman;
+}
+
+ol.o {
+  list-style-type: upper-alpha;
+}
+
+ol.p {
+  list-style-type: upper-latin;
+}
+
+ol.q {
+  list-style-type: upper-roman;
+}
+
+ol.r {
+  list-style-type: none;
+}
+
+ol.s {
+  list-style-type: inherit;
+}
+
+/* Tis style for input */
+.input_div {
+  border: 1px dotted pink;
+  padding: 5px 0 5px 10px;
+  margin: 5px;
+}
+
+/* Fieldset style */
+
+.main_div-container2_div-fieldset_div fieldset {
+  background-color: #eeeeee;
+}
+
+.main_div-container2_div-fieldset_div legend {
+  background-color: gray;
+  color: white;
+  padding: 5px 10px;
+}
+.main_div-container2_div-fieldset_div input {
+  margin: 5px;
+}
+
+.main_div-container2_div-audio audio,
+.main_div-container2_div-video video {
+  border: 1px solid pink;
+}
+
+/* embed */
+.main_div-container2_div-embed div {
+  border: 1px solid pink;
+}
